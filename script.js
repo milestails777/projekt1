@@ -13,6 +13,7 @@ async function load() {
         const href = item.href;
         element.innerHTML += "<a href='" + href + "'>See Also</a>";
         element.innerHTML += "<img src='"+ image +"'>"
+        element.innerHTML += "<h1>"+ id + ". " + name + "</h1>"
       }
       window.scrollTo(0, document.body.scrollHeight);
     }
